@@ -32,7 +32,7 @@ public class RomanTest {
 
     @Test
     public void testSix() {
-        Assert.assertEquals("VI", Roman.numToRoman(5));
+        Assert.assertEquals("VI", Roman.numToRoman(6));
     }
 
     @Test
