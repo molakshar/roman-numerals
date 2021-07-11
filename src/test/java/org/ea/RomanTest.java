@@ -154,4 +154,14 @@ public class RomanTest {
     public void testRomanMax() {
         Assert.assertEquals("MMMCMXCIX", Roman.numToRoman(3999));
     }
+
+    @Test
+    public void testNegative() {
+        Assert.assertEquals(null, Roman.numToRoman(-1));
+    }
+
+    @Test
+    public void testTooLarge() {
+        Assert.assertEquals(null, Roman.numToRoman(4000));
+    }
 }
