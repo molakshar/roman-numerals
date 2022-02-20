@@ -6,6 +6,11 @@ import org.junit.Test;
 public class RomanTest {
 
     @Test
+    public void testZero() {
+        Assert.assertEquals("", Roman.numToRoman(0));
+    }
+
+    @Test
     public void testOne() {
         Assert.assertEquals("I", Roman.numToRoman(1));
     }
