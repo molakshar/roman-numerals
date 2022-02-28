@@ -1,3 +1,4 @@
+# Detailed youtube video from Daniel Persson: https://www.youtube.com/watch?v=fi2jqF7Dz1c&t=14s
 # roman-numerals
 Small challenge to create a good algorithm for roman-numerals.
 
